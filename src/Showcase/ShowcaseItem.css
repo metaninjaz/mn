@@ -1,0 +1,13 @@
+.showcase-img {
+    width: 200px;
+    height: 200px;
+    margin: 16px;
+}
+
+@media (max-width: 640px) {
+    .showcase-img {
+        width: 120px;
+        height: 120px;
+        margin: 12px;
+    }
+}

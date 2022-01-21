@@ -1,0 +1,53 @@
+.main-mn-container {
+    position: relative;
+    /* margin-bottom: 23px; */
+    /* margin-top: 26px; */
+}
+@media (max-width: 580px) {
+    .main-mn-container {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.main-mn {
+    height: 600px;
+    width: 600px;
+    background-position: center;
+    background-size: cover;
+}
+
+.minted {
+    margin-top: 23px;
+}
+
+@media (max-width: 580px) {
+    .main-mn {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.main-oval {
+    border: 1px solid #DF3333;
+    border-radius: 50px;
+    line-height: 46px;
+    color: #DF3333;
+    background: rgba(0, 0, 0, 0);
+    font-weight: 700;
+    max-width: 356px;
+    width: 100%;
+    margin: 6px 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+.main-oval::placeholder {
+    color: #DF3333;
+    text-align: center;
+}
+
+.main-oval.filled {
+    background: #DF3333;
+    color: #101419;
+}

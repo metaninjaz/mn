@@ -1,0 +1,93 @@
+.notifications {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+@media (max-width: 640px) {
+    .notifications {
+        width: 100%;
+        padding-left: 40px;
+    }
+}
+
+.notification {
+    width: 359px;
+    height: 76px;
+    margin-bottom: 20px;
+
+    background: #040506;
+    box-shadow: 0 5px 23px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+@media (max-width: 640px) {
+    .notification {
+        width: 100%;
+        min-height: 76px;
+    }
+}
+
+.notification-icon {
+    height: 100%;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+}
+.notification-icon img {
+    width: 32px;
+    height: 32px;
+}
+
+.notification-icon.exclamation-mark img {
+    width: 48px;
+    height: 48px;
+    image-rendering: auto;
+    shape-rendering: auto;
+}
+
+.notification-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: left;
+
+    font-size: 14px;
+    line-height: 18px;
+    padding-right: 16px;
+}
+.notification-text a {
+    color: #2CF6B3;
+    text-decoration: underline;
+}
+
+.spinner {
+    border: 2px solid #000000;
+    border-top: 2px solid #7F9AAB;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    left: 24px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.close-icon {
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+}

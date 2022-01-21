@@ -1,0 +1,41 @@
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 864px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.circle, .footer-circle {
+    border-radius: 50%;
+    border-width: 0;
+    height: 53px;
+    width: 53px;
+    content: 'o';
+    display: inline-block;
+    margin-right: 0.15em;
+}
+.footer-circle {
+    height: 36px;
+    width: 36px;
+}
+
+.button {
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+    display: block;
+    line-height: 32px;
+    padding: 0 24px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.green-text {
+    color: #2CF6B3;
+}
+
+.nowrap {
+    white-space: nowrap;
+}

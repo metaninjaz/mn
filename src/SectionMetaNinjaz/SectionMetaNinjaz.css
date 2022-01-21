@@ -1,0 +1,21 @@
+.section-meta-ninjaz h2 {
+    margin-top: 48px;
+    margin-bottom: 10px;
+}
+
+.section-meta-ninjaz div {
+    text-align: left;
+    width: 100%;
+    max-width: 610px;
+    margin-top: 18px;
+}
+
+.section-meta-ninjaz div:first-of-type {
+    margin-top: 0;
+}
+
+.section-meta-ninjaz img {
+    width: 350px;
+    height: 350px;
+    margin-top: 54px;
+}

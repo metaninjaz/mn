@@ -1,0 +1,15 @@
+.rarity h2 {
+    margin-top: 54px;
+    margin-bottom: 10px;
+}
+
+.rarity div {
+    margin-top: 18px;
+    text-align: left;
+    width: 100%;
+    max-width: 610px;
+}
+
+.rarity div:first-of-type {
+    margin-top: 0;
+}

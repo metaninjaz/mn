@@ -1,0 +1,20 @@
+.showcase-row {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* top: 116px; */
+    /* height: 232px; */
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 640px) {
+    .showcase-row {
+        height: 144px;
+        flex-wrap: wrap;
+    }
+}

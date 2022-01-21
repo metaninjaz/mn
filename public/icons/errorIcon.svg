@@ -1,0 +1,10 @@
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg" fill="none">
+
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_3">
+   <path id="svg_1" shape-rendering="auto" fill="#C20114" d="m22.2679,8c0.7698,-1.33333 2.6943,-1.33333 3.4641,0l17.3206,30c0.7698,1.3333 -0.1925,3 -1.7321,3l-34.64101,0c-1.5396,0 -2.50185,-1.6667 -1.73205,-3l17.32046,-30z"/>
+   <path id="svg_2" shape-rendering="auto" fill="white" d="m23.264,20.992l1.6,0l-0.128,7.248l-1.344,0l-0.128,-7.248zm-0.016,8.976l1.632,0l0,2.032l-1.632,0l0,-2.032z"/>
+  </g>
+ </g>
+</svg>

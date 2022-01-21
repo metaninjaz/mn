@@ -1,0 +1,1 @@
+# Meta Ninjaz NFT project

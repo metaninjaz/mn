@@ -1,0 +1,11 @@
+.social-email {
+  font-size: 14px;
+  margin-right: 10px;
+  position: relative;
+  top: 6px;
+}
+
+.socials {
+  margin-top: 2%;
+  display: flex;
+}
